@@ -22,6 +22,7 @@ namespace entangle {
                 Reset(qs[1]);
             }
         }
+        Message("Entanglement operation complete!");
     }
 
     operation runEntanglement() : Unit {
